@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js"
+</head>
+<body>
+<div class="container">
+<!-- Input fields for the calculator -->
+<p> Calculator</p><br>
+<input type="text" id="num1">
+
+<!-- Buttons for each operator -->
+<button onclick="selectOperator('+')">+</button>
+<button onclick="selectOperator('-')">-</button>
+<button onclick="selectOperator('*')">*</button>
+<button onclick="selectOperator('/')">/</button>
+
+<input type="text" id="num2">
+
+
+<!-- Button to calculate the result -->
+<button id="calculate-button" onclick="calculateResult()">Calculate</button>
+
+<!-- Display the result -->
+<p id="result"></p>
+<p id="text"></p>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
